@@ -1,5 +1,5 @@
 {% set name = "colorpedia" %}
-{% set version = "1.2.1" %}
+{% set version = "1.2.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/colorpedia-{{ version }}.tar.gz
-  sha256: 13e2536c8afe8e9d98b5966c00558be6778ff776952057c97b452be20c0fa3fa
+  sha256: a54e1f509cd028b473b7fae029f2b7bb29c3b0d666ea05a6262c2ba335ad29ac
 
 build:
   number: 0
